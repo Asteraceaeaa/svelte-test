@@ -53,5 +53,40 @@
 
     .info h1 p {
         position: relative;
+        font: inherit;
+        margin: 0;
+        text-align: left;
+        line-height: 130%;
+        width: fit-content;
+        font-weight: 800;
+        letter-spacing: -.03em;
+    }
+
+    .info h2 {
+        max-width: 65ch;
+        font-weight: 200;
+        margin-top: .5rem;
+    }
+
+    .background-div {
+        background-color: #ecebe8;
+        width: 100%;
+        height: 56vh;
+        margin: -205px auto;
+    }
+
+    .info .info-text {
+        position: relative;
+    }
+
+    .scroll-button {
+        display: flex;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .scroll-button .arrow {
+        margin-left: .5rem;
     }
 </style>
